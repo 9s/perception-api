@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/9s/perception-ts.git"
+    "url": "https://github.com/9s/perception-api.git"
   },
   "devDependencies": {
     "@types/bun": "latest"
