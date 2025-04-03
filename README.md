@@ -7,7 +7,7 @@ currently only the universal api is supported.
 ## usage
 
 ```bash
-bun i --dev typescript perception-api typescript-to-lua lua-types
+bun add --dev typescript perception-api typescript-to-lua lua-types
 ```
 
 add
@@ -38,3 +38,5 @@ engine.log(
     255, 255, 255, 255
 )
 ```
+
+full example [here](https://github.com/9s/perception-ts-example.git)
