@@ -260,6 +260,47 @@ namespace net {
 /** The global `proc` object for process-related operations. */
 namespace proc {
     /**
+     * Attaches to a process by its PID (integer).
+     * @param process_id The process ID to attach to.
+     * @param has_computer_clr Optional boolean for some engine-specific option.
+     * @param cts Optional boolean for some engine-specific option.
+     * @returns True if the attach succeeded, false otherwise.
+     */
+    function attach_by_pid(
+        process_id: number,
+        has_computer_clr?: boolean,
+        cts?: boolean
+    ): boolean;
+
+    /**
+     * Attaches to a process by its name (string).
+     * @param process_name The process name to attach to.
+     * @param has_computer_clr Optional boolean for some engine-specific option.
+     * @param cts Optional boolean for some engine-specific option.
+     * @returns True if the attach succeeded, false otherwise.
+     */
+    function attach_by_name(
+        process_name: string,
+        has_computer_clr?: boolean,
+        cts?: boolean
+    ): boolean;
+
+    /**
+     * Attaches to a process by its window class and window name (both strings).
+     * @param window_class The window class name.
+     * @param window_name The window name (title).
+     * @param has_computer_clr Optional boolean for some engine-specific option.
+     * @param cts Optional boolean for some engine-specific option.
+     * @returns True if the attach succeeded, false otherwise.
+     */
+    function attach_by_window(
+        window_class: string,
+        window_name: string,
+        has_computer_clr?: boolean,
+        cts?: boolean
+    ): boolean;
+
+    /**
      * Returns true if a process is currently attached.
      */
     function is_attached(): boolean;
