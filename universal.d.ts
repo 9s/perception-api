@@ -1,3 +1,5 @@
+/** @noSelfInFile **/
+
 /** The global engine object exposed by perception. */
 namespace engine {
     /**
