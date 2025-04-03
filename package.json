@@ -1,0 +1,19 @@
+{
+  "name": "perception-api",
+  "description": "perception lua api ported to typescript",
+  "version": "0.0.2",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/9s/perception-ts.git"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.8.2"
+  },
+  "files": [
+    "**/*.d.ts"
+  ]
+}
