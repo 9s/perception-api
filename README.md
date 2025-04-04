@@ -12,18 +12,21 @@ bun add --dev typescript perception-api typescript-to-lua lua-types
 
 add
 
-```json
+```json5
 {
   "$schema": "https://raw.githubusercontent.com/TypeScriptToLua/TypeScriptToLua/master/tsconfig-schema.json",
   "compilerOptions": {
     "types": [
       "lua-types/5.4",
-      "perception-api/universal"
+      "perception-api/universal", // for universal api
+      "perception-api/cs2" // for cs2 api
     ]
   },
   "tstl": {
     "luaTarget": "5.4",
-    "noHeader": true
+    "noHeader": true,
+    "noImplicitGlobalVariables": true,
+    "noImplicitSelf": true
   }
 }
 ```
