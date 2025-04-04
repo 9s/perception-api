@@ -19,7 +19,8 @@ add
     "types": [
       "lua-types/5.4",
       "perception-api/universal", // for universal api
-      "perception-api/cs2" // for cs2 api
+      "perception-api/cs2", // for counter strike 2 api,
+      "perception-api/rivals" // for marvel rivals api,
     ]
   },
   "tstl": {
