@@ -2,9 +2,11 @@
 
 this package aims to provide a typed api for the perception game engine.
 
-currently only the universal api is supported.
+## documentation
 
-## usage
+you can find the full documentation [here](https://9s.github.io/perception-api/).
+
+## quickstart
 
 ```bash
 bun add --dev typescript perception-api typescript-to-lua lua-types
