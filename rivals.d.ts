@@ -131,7 +131,7 @@ namespace marvel_rivals {
     function get_bone_position(
         skeletal_mesh: number,
         bone_id: number
-    ): [ x: number, y: number, z: number ];
+    ): [x: number, y: number, z: number];
 
     /**
      * Describes a single class field, including its name and memory offset.

@@ -57,7 +57,7 @@ namespace cs2 {
         x: number,
         y: number,
         z: number
-    ): [ x: number, y: number ];
+    ): [x: number, y: number];
 
     /**
      * Gets the 3D world position of the specified bone in the given bone array.
@@ -68,7 +68,7 @@ namespace cs2 {
     function get_bone_position(
         bone_array: number,
         bone: number
-    ): [ x: number, y: number, z: number ];
+    ): [x: number, y: number, z: number];
 
     /**
      * Represents a single player's data, including whether they're a teammate.
