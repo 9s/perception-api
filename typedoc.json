@@ -9,24 +9,6 @@
   "includeVersion": true,
   "tsconfig": "tsconfig.json",
   "name": "perception.cx api",
-  "plugin": [
-    "@typhonjs-typedoc/typedoc-theme-dmt"
-  ],
-  "theme": "default-modern",
-  "dmtFavicon": "https://perception.cx/data/assets/logo/perception_logo_1.png",
-  "dmtLinksService": {
-    "GitHub": "https://github.com/9s/perception-api",
-    "NPM": "https://www.npmjs.com/package/perception-api"
-  },
-  "dmtNavigation": {
-    "moduleIcon": false,
-    "style": "full"
-  },
-  "dmtSearch": {
-    "fullName": false,
-    "limit": 10
-  },
-  "dmtSettings": {
-    "animation": true
-  }
+  "plugin": ["typedoc-material-theme"],
+  "themeColor": "#cb9820"
 }
