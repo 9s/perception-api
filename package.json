@@ -9,6 +9,7 @@
   },
   "devDependencies": {
     "@types/bun": "latest",
+    "@typhonjs-typedoc/typedoc-theme-dmt": "^0.3.1",
     "typedoc": "^0.27.3"
   },
   "peerDependencies": {
