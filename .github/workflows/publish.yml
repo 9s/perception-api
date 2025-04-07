@@ -24,6 +24,15 @@ jobs:
       - name: Install dependencies
         run: bun install
 
+      - name: Generate docs
+        run: bunx typedoc
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+
       - name: Create .npmrc for Publishing
         run: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > .npmrc
         env:

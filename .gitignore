@@ -1,5 +1,6 @@
 **/.DS_Store
 /index.lua
+/docs
 
 # dependencies (bun install)
 node_modules

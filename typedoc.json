@@ -1,0 +1,11 @@
+{
+  "entryPoints": [
+    "./cs2.d.ts",
+    "./rivals.d.ts",
+    "./universal.d.ts",
+    "./valorant.d.ts"
+  ],
+  "out": "docs",
+  "includeVersion": true,
+  "tsconfig": "tsconfig.json"
+}
