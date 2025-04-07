@@ -68,8 +68,6 @@ namespace cs2 {
         bone: number
     ): { x: number; y: number; z: number };
 
-    // -- Player data structures --
-
     /**
      * Represents a single player's data, including whether they're a teammate.
      */

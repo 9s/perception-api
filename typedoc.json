@@ -9,6 +9,11 @@
   "includeVersion": true,
   "tsconfig": "tsconfig.json",
   "name": "perception.cx api",
-  "plugin": ["typedoc-material-theme"],
-  "themeColor": "#cb9820"
+  "plugin": [
+    "typedoc-material-theme",
+    "typedoc-plugin-extras"
+  ],
+  "themeColor": "#ffffff",
+  "customTitle": "Perception TypeScript API",
+  "favicon": "https://perception.cx/data/assets/logo/perception_logo_1.png"
 }
