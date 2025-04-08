@@ -571,42 +571,42 @@ namespace proc {
     // ---- Memory Reading ----
 
     /** Reads a double from memory. */
-    function read_double(address: number): number;
+    function read_double(address: number|bigint): number;
 
     /** Reads a float from memory. */
-    function read_float(address: number): number;
+    function read_float(address: number|bigint): number;
 
     /** Reads a 64-bit integer from memory. */
-    function read_int64(address: number): bigint;
+    function read_int64(address: number|bigint): bigint;
 
     /** Reads a 32-bit integer from memory. */
-    function read_int32(address: number): number;
+    function read_int32(address: number|bigint): number;
 
     /** Reads a 16-bit integer from memory. */
-    function read_int16(address: number): number;
+    function read_int16(address: number|bigint): number;
 
     /** Reads an 8-bit integer from memory. */
-    function read_int8(address: number): number;
+    function read_int8(address: number|bigint): number;
 
     // ---- Memory Writing ----
 
     /** Writes a double to memory. */
-    function write_double(address: number, value: number): void;
+    function write_double(address: number|bigint, value: number): void;
 
     /** Writes a float to memory. */
-    function write_float(address: number, value: number): void;
+    function write_float(address: number|bigint, value: number): void;
 
     /** Writes a 64-bit integer to memory. */
-    function write_int64(address: number, value: bigint): void;
+    function write_int64(address: number|bigint, value: bigint): void;
 
     /** Writes a 32-bit integer to memory. */
-    function write_int32(address: number, value: number): void;
+    function write_int32(address: number|bigint, value: number): void;
 
     /** Writes a 16-bit integer to memory. */
-    function write_int16(address: number, value: number): void;
+    function write_int16(address: number|bigint, value: number): void;
 
     /** Writes an 8-bit integer to memory. */
-    function write_int8(address: number, value: number): void;
+    function write_int8(address: number|bigint, value: number): void;
 
     // ---- Buffer Operations ----
 
@@ -616,7 +616,7 @@ namespace proc {
      * @param buffer The buffer handle (from m.alloc).
      * @param size Number of bytes to read.
      */
-    function read_to_memory_buffer(address: number, buffer: number, size: number): void;
+    function read_to_memory_buffer(address: number|bigint, buffer: number, size: number): void;
 
     /**
      * Writes memory from a buffer.
@@ -624,7 +624,7 @@ namespace proc {
      * @param buffer The buffer handle (from m.alloc).
      * @param size Number of bytes to write.
      */
-    function write_from_memory_buffer(address: number, buffer: number, size: number): void;
+    function write_from_memory_buffer(address: number|bigint, buffer: number, size: number): void;
 
     // ---- String Operations ----
 
@@ -634,14 +634,14 @@ namespace proc {
      * @param size Maximum number of bytes to read.
      * @returns The read string.
      */
-    function read_string(address: number, size: number): string;
+    function read_string(address: number|bigint, size: number): string;
 
     /**
      * Writes a string to memory.
      * @param address The destination address.
      * @param text The string to write.
      */
-    function write_string(address: number, text: string): void;
+    function write_string(address: number|bigint, text: string): void;
 
     /**
      * Reads a wide string (UTF-16) from memory.
@@ -649,14 +649,14 @@ namespace proc {
      * @param size The number of characters to read.
      * @returns The wide string.
      */
-    function read_wide_string(address: number, size: number): string;
+    function read_wide_string(address: number|bigint, size: number): string;
 
     /**
      * Writes a wide string (UTF-16) to memory.
      * @param address The memory address.
      * @param text The wide string to write.
      */
-    function write_wide_string(address: number, text: string): void;
+    function write_wide_string(address: number|bigint, text: string): void;
 }
 
 /**

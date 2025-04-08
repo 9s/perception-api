@@ -1,7 +1,7 @@
 {
   "name": "perception-api",
   "description": "perception lua api ported to typescript",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "license": "MIT",
   "repository": {
     "type": "git",
