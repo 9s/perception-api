@@ -45,6 +45,11 @@ namespace cs2 {
     function get_global_vars(): number;
 
     /**
+     * Returns a pointer (integer) to the highest entity index.
+     */
+    function get_highest_entity_index(): number;
+
+    /**
      * Returns a pointer (integer) to the view matrix or matrix interface.
      */
     function get_view_matrix(): number;
