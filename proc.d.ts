@@ -1,3 +1,5 @@
+/** @noSelfInFile **/
+
 /**
  * The global `proc` object for process-related operations.
  * ```ts

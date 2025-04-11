@@ -1,3 +1,5 @@
+/** @noSelfInFile **/
+
 /**
  * The global input object exposed by perception.
  * ```ts

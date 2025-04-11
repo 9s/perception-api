@@ -1,3 +1,5 @@
+/** @noSelfInFile **/
+
 /**
  * ```ts
  * -- Attempt to attach to Notepad by process name

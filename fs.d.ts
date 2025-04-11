@@ -1,3 +1,5 @@
+/** @noSelfInFile **/
+
 /**
  * The global fs object for filesystem operations.
  * ```ts

@@ -1,3 +1,5 @@
+/** @noSelfInFile **/
+
 /**
  * The global net object for sending HTTP requests.
  * ```ts

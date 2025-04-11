@@ -1,3 +1,5 @@
+/** @noSelfInFile **/
+
 /**
  * The global `m` object for memory allocation/reading/writing.
  * ```ts

@@ -1,3 +1,5 @@
+/** @noSelfInFile **/
+
 /** The global winapi object exposed by perception. */
 namespace winapi {
     /**

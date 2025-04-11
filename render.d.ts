@@ -1,3 +1,5 @@
+/** @noSelfInFile **/
+
 /**
  * The global render object for drawing operations. *
  * // Create a font for rendering text

@@ -1,16 +1,17 @@
 {
   "name": "perception-api",
   "description": "perception lua api ported to typescript",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/9s/perception-api.git"
   },
   "devDependencies": {
-    "@typhonjs-typedoc/typedoc-theme-dmt": "^0.3.1",
+    "ig-typedoc-theme": "^6.0.0",
     "typedoc": "^0.27",
-    "typedoc-plugin-extras": "^4.0.0"
+    "typedoc-plugin-extras": "^4.0.0",
+    "typedoc-plugin-localization": "^3.0.6"
   },
   "peerDependencies": {
     "typescript": "^5.8.2"

@@ -1,35 +1,29 @@
 {
   "entryPoints": [
-    "./cs2.d.ts",
-    "./rivals.d.ts",
-    "./universal.d.ts",
-    "./valorant.d.ts"
+    "cs2.d.ts",
+    "engine.d.ts",
+    "fs.d.ts",
+    "input.d.ts",
+    "m.d.ts",
+    "m.d.ts",
+    "net.d.ts",
+    "proc.d.ts",
+    "render.d.ts",
+    "rivals.d.ts",
+    "universal.d.ts",
+    "valorant.d.ts",
+    "winapi.d.ts"
   ],
   "out": "docs",
   "includeVersion": true,
   "tsconfig": "tsconfig.json",
   "name": "perception.cx api",
   "plugin": [
-    "@typhonjs-typedoc/typedoc-theme-dmt",
+    "ig-typedoc-theme",
+    "typedoc-plugin-localization",
     "typedoc-plugin-extras"
   ],
-  "theme": "default-modern",
+  "theme": "igtheme",
   "customTitle": "Perception TypeScript API",
-  "dmtFavicon": "https://perception.cx/data/assets/logo/perception_logo_1.png",
-  "dmtLinksService": {
-    "Discord": "@qqwwwwwxx",
-    "GitHub": "https://github.com/9s/perception-api",
-    "NPM": "https://www.npmjs.com/package/perception-api"
-  },
-  "dmtNavigation": {
-    "moduleIcon": false,
-    "style": "full"
-  },
-  "dmtSearch": {
-    "fullName": false,
-    "limit": 10
-  },
-  "dmtSettings": {
-    "animation": true
-  }
+  "favicon": "https://perception.cx/data/assets/logo/perception_logo_1.png"
 }
