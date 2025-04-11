@@ -19,11 +19,7 @@
   "tsconfig": "tsconfig.json",
   "name": "perception.cx api",
   "plugin": [
-    "ig-typedoc-theme",
-    "typedoc-plugin-localization",
     "typedoc-plugin-extras"
   ],
-  "theme": "igtheme",
-  "customTitle": "Perception TypeScript API",
   "favicon": "https://perception.cx/data/assets/logo/perception_logo_1.png"
 }
