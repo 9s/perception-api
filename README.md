@@ -20,10 +20,17 @@ add
   "compilerOptions": {
     "types": [
       "lua-types/5.4",
+      "perception-api/cs2", // for counter strike 2 api
+      "perception-api/engine", // for engine api
+      "perception-api/fs", // for file system api
+      "perception-api/input", // for input api
+      "perception-api/m", // for memory api
+      "perception-api/net", // for network
+      "perception-api/proc", // for process api
+      "perception-api/render", // for render api
       "perception-api/universal", // for universal api
-      "perception-api/cs2", // for counter strike 2 api,
-      "perception-api/rivals", // for marvel rivals api,
-      "perception-api/valorant" // for marvel rivals api,
+      "perception-api/valorant", // for valorant api
+      "perception-api/winapi", // for windows api
     ]
   },
   "tstl": {
